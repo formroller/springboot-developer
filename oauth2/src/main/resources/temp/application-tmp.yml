@@ -1,0 +1,30 @@
+#server:
+#  port: 8888
+#
+#spring:
+#  #oauth2
+#  profiles:
+#    include: oauth
+#
+#  # jpa
+#  jpa:
+#    showSql: true
+#    properties:
+#      hibernate:
+#        format_sql: true
+#    defer-datasource-initialization: true
+#
+##  datasource:
+##    url: jdbc:h2:mem:testdb
+##    username: sa
+#
+# # 콘솔 활성화
+#  h2:
+#    console:
+#      enabled: true
+#
+#
+## jwt
+#jwt:
+#  issuer: dldydwns10@gmail.com
+#  secret_key: test
